@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nishan | Shrestha | Portfilio</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#87ceeb" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="media.css" />
+    <script
+      src="https://kit.fontawesome.com/30b9b7797d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="home"></div>
+    <!-- starrt of header section-->
+    <header>
+      <nav>
+        <div class="profile">
+          <img src="../img/fp.jpg" />
+        </div>
+        <p><span class="nishan">NISHAN </span>SHRESTHA</p>
+        <ul>
+          <li><a href="#home" class="active">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#contact">CONTACT ME</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- End of Header section  -->
+
+    <!-- Start of first section  -->
+    <main>
+      <section class="firstsection">
+        <div class="leftside">
+          <img src="../img/profile.jpeg" alt="" />
+          <h1>I'm <span>Nishan Shrestha</span></h1>
+          <p>Very Passionate at learning</p>
+          <div><span id="element" class="hello"></span></div>
+          <div class="a">
+            <a
+              href="Professional CV Resume.pdf"
+              download="cv.pdf"
+              target="_blank"
+              >DOWNLOAD MY CV
+            </a>
+          </div>
+        </div>
+        <div class="rightside">
+          <img src="/img/1.webp" />
+        </div>
+      </section>
+      <!-- end of first section -->
+
+      <!-- start of second section -->
+      <section id="about" class="secondsection">
+        <h1>Education</h1>
+        <div class="container">
+          <div class="left">
+            <img src="../img/school.png" class="school" />
+          </div>
+          <div class="right">
+            <p>
+              I joined Precious Public English School in year 2007 and completed
+              my 10th grade in year 2020. My average GPA was 3.85 back in
+              school.
+            </p>
+          </div>
+          <div class="left">
+            <img src="../img/clz.png" class="college" />
+          </div>
+          <div class="right">
+            <p>
+              I joined DAV college in year 2020 and completed my 12th grade in
+              year 2022. My average GPA was 3.07 back in college.
+            </p>
+          </div>
+          <div class="left">
+            <img src="../img/logo.png" class="clz" />
+          </div>
+          <div class="right">
+            <p>
+              I joined Sunway College Kathmadu in year 2023 and currently
+              studying here.
+            </p>
+          </div>
+        </div>
+        <div class="second-container">
+          <h1>Skills</h1>
+          <div class="container">
+            <div class="left">
+              <img src="../img/html.png" class="html" />
+            </div>
+            <div class="right">
+              <p>
+                As an HTML learner, I am focused on mastering fundamental skills
+                in creating web content. I understand HTML's core elements and
+                how they structure web documents. I delve into CSS for styling
+                and JavaScript for interactivity. My goal is to develop a solid
+                foundation in web development to create visually appealing and
+                functional websites. I strive to grasp concepts like semantic
+                HTML, responsive design, and accessibility, ensuring I create
+                well-structured, visually appealing, and inclusive web content.
+              </p>
+            </div>
+            <div class="left">
+              <img src="../img/css.png" class="css" />
+            </div>
+            <div class="right">
+              <p>
+                As an CSS learner, I am honing essential skills in web design.
+                I'm familiarizing myself with CSS properties, selectors, and
+                styling techniques. I am working on creating visually appealing
+                and responsive layouts, including positioning elements,
+                modifying typography, and handling colors. I'm also learning
+                about CSS frameworks like Bootstrap. My objective is to become
+                proficient in crafting captivating and well-structured web
+                designs that enhance user experiences.
+              </p>
+            </div>
+            <div class="left">
+              <img src="../img/py.png" class="python" />
+            </div>
+            <div class="right">
+              <p>
+                As a Python learner, I am building crucial skills in
+                programming. I am mastering Python's syntax, data structures,
+                and control flow. I practice problem-solving through coding
+                challenges and projects, gaining proficiency in algorithms and
+                data manipulation. I am also exploring Python libraries and
+                frameworks for various applications, such as web development,
+                data analysis, and machine learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Let's work together...</h2>
+          <p>How do you take your coffee?</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/shresthanishan/">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/shresthanishan5">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/nishan.stha.7589">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/nishanshrestha40/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="mailto:nishanshrestha212@gmail.com">
+            <i class="fa-solid fa-at"></i>
+          </a>
+        </div>
+      </section>
+      <footer>
+        <div id="copyright-container">
+          <p id="copyright-year"></p>
+      </div>
+      </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Development",
+          "Python Progamming",
+          "Software Development",
+        ],
+        typeSpeed: 30,
+        loop: true,
+      });
+      function updateCopyrightYear() {
+        const currentYear = new Date().getFullYear();
+
+        document.getElementById(
+          "copyright-year"
+        ).textContent = `© ${currentYear} Personal Portfolio`;
+      }
+      updateCopyrightYear();
+    </script>
+  </body>
+</html>
